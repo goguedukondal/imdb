@@ -11,7 +11,7 @@ function App() {
     const input = useRef()
 
     useEffect(()=>{
-        fetch(`http://www.omdbapi.com/?s=${query}&apikey=f2af41e4`).then(response=>response.json()).then(data=>setMovie(data.Search))
+        fetch(`https://www.omdbapi.com/?s=${query}&apikey=f2af41e4`).then(response=>response.json()).then(data=>setMovie(data.Search))
     },[query])
 
  console.log(movie);
