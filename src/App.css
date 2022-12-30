@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+
+
+.navbar{
+  width: 100vw;
+  height: 4rem;
+  background-color:rgb(30, 30, 0);
+  
+}
+
+.hook{
+  color:white;
+  padding-top: 0.5rem;
+}
+.search-input{
+  width: 50vw;
+  height: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 0px black;
+}
+.btn{
+  height: 26px;
+  width: 4rem;
+  margin-left: 5px;
+  box-shadow: 0px 1px 1px 0px black;
+  border-radius: 5px;
+}
+.movie{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  flex-wrap: wrap;
+
+}
